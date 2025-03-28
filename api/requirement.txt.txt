@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lists Example</title>
+</head>
+<body>
+    <h1>Lists Example</h1>
+
+    <h2>Unordered List</h2>
+    <ul type="circle">
+        <li>Item 1</li>
+        <li>Item 2
+            <ol type="I">
+                <li>Sub-item 1</li>
+                <li>Sub-item 2</li>
+            </ol>
+        </li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol type="1">
+        <li>Item 1</li>
+        <li>Item 2
+            <ul type="square">
+                <li>Sub-item 1</li>
+                <li>Sub-item 2</li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+    </ol>
+</body>
+</html>
